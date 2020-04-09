@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "715078837548",
+    "firebase_url": "https://fcmexample-devhante.firebaseio.com",
+    "project_id": "fcmexample-devhante",
+    "storage_bucket": "fcmexample-devhante.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715078837548:android:60f4a4f2e6e6c41e3df889",
+        "android_client_info": {
+          "package_name": "com.fcmexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715078837548-p0rj3ssv4vdct87jpq7k6ba919n0omft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqn_wRWwGit3OoBD-_TgmUx2rmyReO1mQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715078837548-p0rj3ssv4vdct87jpq7k6ba919n0omft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
