@@ -77,10 +77,8 @@ target 'FcmExample' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'FcmExampleTests' do
-    inherit! :complete
-    # Pods for testing
-  end
+  pod 'Firebase/Core', '~> 6.13.0'
+  pod 'Firebase/Messaging', '~> 6.13.0'
 
   use_native_modules!
 
@@ -91,14 +89,5 @@ target 'FcmExample' do
   add_flipper_pods!
   post_install do |installer|
     flipper_post_install(installer)
-  end
-end
-
-target 'FcmExample-tvOS' do
-  # Pods for FcmExample-tvOS
-
-  target 'FcmExample-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
   end
 end

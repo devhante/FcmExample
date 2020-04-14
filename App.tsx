@@ -17,7 +17,7 @@ export default class App extends Component {
 
   public render() {
     return (
-      <View style={{ justifyContent: 'center', alignItems: 'center' }}>
+      <View style={{ height: '100%', justifyContent: 'center', alignItems: 'center' }}>
         <Text> Received Push notification </Text>
       </View>
     );
